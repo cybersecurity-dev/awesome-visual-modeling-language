@@ -20,6 +20,46 @@
 - [Contributing](#contributing)
 - [Contributors](#contributors)
 
+
+## UML Diagram
+
+```mermaid
+flowchart LR
+    UML["UML Diagram Taxonomy"]
+
+    UML --> STRUCTURE["Structure Diagrams"]
+    UML --> BEHAVIOR["Behavior Diagrams"]
+
+    STRUCTURE --> CLASS["Class"]
+    STRUCTURE --> OBJECT["Object"]
+    STRUCTURE --> COMPONENT["Component"]
+    STRUCTURE --> COMPOSITE["Composite Structure"]
+    STRUCTURE --> PACKAGE["Package"]
+    STRUCTURE --> DEPLOYMENT["Deployment"]
+    STRUCTURE --> PROFILE["Profile"]
+
+    BEHAVIOR --> USECASE["Use Case"]
+    BEHAVIOR --> ACTIVITY["Activity"]
+    BEHAVIOR --> STATE["State Machine"]
+    BEHAVIOR --> INTERACTION["Interaction Diagrams"]
+
+    INTERACTION --> SEQUENCE["Sequence"]
+    INTERACTION --> COMMUNICATION["Communication"]
+    INTERACTION --> OVERVIEW["Interaction Overview"]
+    INTERACTION --> TIMING["Timing"]
+
+    classDef root fill:#b71c1c,color:white,stroke:#7f0000,stroke-width:3px;
+    classDef main fill:#ef6c00,color:white,stroke:#a63f00,stroke-width:2px;
+    classDef subgroup fill:#f9a825,color:#212121,stroke:#b27300,stroke-width:2px;
+    classDef leaf fill:#fff8e1,color:#212121,stroke:#d89b00;
+
+    class UML root;
+    class STRUCTURE,BEHAVIOR main;
+    class INTERACTION subgroup;
+    class CLASS,OBJECT,COMPONENT,COMPOSITE,PACKAGE,DEPLOYMENT,PROFILE leaf;
+    class USECASE,ACTIVITY,STATE,SEQUENCE,COMMUNICATION,OVERVIEW,TIMING leaf;
+```
+
 ##
 
 ### My Other Awesome Lists
