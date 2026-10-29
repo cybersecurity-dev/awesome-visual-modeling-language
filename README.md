@@ -119,7 +119,7 @@ flowchart TB
     class USECASE_EXAMPLE,ACTIVITY_EXAMPLE,STATE_EXAMPLE example;
     class SEQUENCE_EXAMPLE,COMMUNICATION_EXAMPLE,OVERVIEW_EXAMPLE,TIMING_EXAMPLE example;
 ```
-# **`Awesome`** Visual Modeling [Language](https://wikipedia.org/wiki/Unified_Modeling_Language)
+# **`Awesome`** Visual Modeling [Language](https://wikipedia.org/wiki/Unified_Modeling_Language) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 </div>
 
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)]()
@@ -128,7 +128,7 @@ flowchart TB
 <p align="center">
     <a href="https://github.com/cybersecurity-dev/"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/github.svg" alt="GitHub"></a>
     &nbsp;
-    <a href="https://www.youtube.com/@CyberThreatDefence"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/youtube.svg" alt="YouTube"></a>
+    <a href="https://www.youtube.com/@CyberThreatDefense"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/youtube.svg" alt="YouTube"></a>
     &nbsp;
     <a href="https://cyberthreatdefence.com/my_awesome_lists"><img height="20" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/blog.svg" alt="My Awesome Lists"></a>
     <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
@@ -190,4 +190,7 @@ You can access the my other awesome lists [here](https://cyberthreatdefence.com/
 ### Contributors
 [Thanks goes to these contributors](https://github.com/cybersecurity-dev/awesome-visual-modeling-language/graphs/contributors)!
 
-[🔼 Back to top](#awesome-visual-modeling-language)
+### License
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0)
+
+[🔼 Back to top](#awesome-visual-modeling-language-)
